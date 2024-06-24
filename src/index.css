@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #efefef;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+}
+
+select {
+  background-color: #D9D9D9;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  padding: 1.3rem 0;
+}
+
+table {
+  width: 100%;
+  margin-top: 1rem;
+}
